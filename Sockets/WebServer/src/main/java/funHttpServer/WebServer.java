@@ -206,8 +206,8 @@ class WebServer {
           //Try to parse integers from input strings
           try {
                // extract required fields from parameters
-               Integer num1 = Integer.parseInt(query_pairs.get("num1"));
-               Integer num2 = Integer.parseInt(query_pairs.get("num2"));
+               num1 = Integer.parseInt(query_pairs.get("num1"));
+               num2 = Integer.parseInt(query_pairs.get("num2"));
              
                // do math
                Integer result = num1 * num2;
